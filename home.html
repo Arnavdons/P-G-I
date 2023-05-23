@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GAME NAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Yeon+Sung&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    
+    <link rel="stylesheet" href="home.css">
+</head>
+<body class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+ <!--modal-content    modal fade-->   
+
+<div id="myapps" class="modal fade">
+    <div class="modal-content bg">
+        <div class="modal-header">
+            
+            <button type="button" class="clo" data-dismiss="modal">Back</button>
+            &nbsp;<h2 style="margin-top: -20px;" class="choose">More Apps and Games</h2>
+
+            
+        </div>
+
+        <div class="modal-body">
+            <center id="bg">
+            <a href="https://play.google.com/store/apps/details?id=com.tanxe.angrytohappyapp" target="_blank"><img src="Mind Relaxing app Icon.png" id="Mind_Relax"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;      
+            <a href="https://play.google.com/store/apps/details?id=com.gmail.harishkadwane.mathstestthegame" target="_blank"><img src="Maths test Icon.jpg" id="Maths_test"></a>
+            <br><h3 id="Mind_name">Mind Relaxing App</h3><h3 id="Math_name">Maths Test The Game</h3>
+        </center>
+           
+        
+        </div>
+
+    </div>
+</div>
+
+<div id="chapters" class="modal fade">
+<div class="modal-content bg">
+        <div class="modal-header">
+            
+            <button type="button" class="clo" data-dismiss="modal">Back</button>
+            &nbsp;<h2 style="margin-top: -20px;" class="choose">Choose a Chapter</h2>
+
+            
+        </div>
+
+        <div class="modal-body">
+            <img src="Chapter 1.png" class="Chapter_1_img" onclick="chap_1()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Coming Soon.png" class="Chapter_1_img">
+            
+        </div>
+
+</div>
+</div>
+
+    
+<div><button id="more_apps" data-toggle="modal" data-target="#myapps">More Apps and Games</button><!--<a href="https://play.google.com/store/apps/details?id=com.tanxe.angrytohappyapp" target="blank_"><img src="Mind Relaxing app Icon.png" id="Mind_Relax"></a>--></div><div><h1 id="title">GAME NAME</h1></div><div><!--<a href="https://play.google.com/store/apps/details?id=com.gmail.harishkadwane.mathstestthegame" target="blank_"><img src="Maths test Icon.jpg" id="Maths_test"></a>--><h5 id="v">V 1.0</h3></div>
+<img id="Options" src="Options Icon.png" onclick="play()"> 	
+    
+<embed src="Background Music2.mp3" loop="true" autostart="true" width="2" height="0">
+
+<button id="play" data-toggle="modal" data-target="#chapters">PLAY</button>   <a target="_blank" href="https://www.youtube.com/channel/UCryYR-33jXgANmK8g94jqmw"><img id="youtube" src="Youtube Icon.png"></a>
+<script src="home.js"></script>
+</body>
+</html>

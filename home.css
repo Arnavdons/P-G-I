@@ -1,0 +1,129 @@
+
+
+#Mind_Relax{
+width: 70px;
+height: 70px;
+}
+
+#Maths_test{
+width: 70px;
+height: 70px;
+}
+
+
+body{
+text-align: center;
+}
+
+#more_apps{
+float: left;
+width: 115px;
+color: black;
+margin-top: 5px;
+background-color: cyan;
+font-weight: bold;
+font-size: 18px;
+border-radius: 10px;
+font-family: monospace;
+}
+
+#v{
+float: right;
+font-size: 20px;
+margin-top: -50px;
+font-weight: bold;
+}
+
+#title{
+font-family: 'Press Start 2P', cursive;
+margin-top: 3px;
+margin-right: 70px;
+}
+
+body{
+background-image: url("Background.gif");
+background-size: cover;
+background-repeat: no-repeat;
+background-color: black;
+color: White;
+}
+
+#play{
+border-radius: 100%;
+width: 200px;
+height: 100px;
+font-size: 30px;
+margin-top: 26%;
+color: black;
+font-family: 'Press Start 2P', cursive;
+background-color: lime;
+}
+
+#youtube{
+margin-top: 210px;
+margin-right: -20px;
+width: 100px;
+height: 56px;
+float: right;
+}
+
+#Options{
+margin-top: 200px;
+margin-left: -120px;
+width: 60px;
+height: 60px;
+float: left;
+}
+
+.clo{
+background-color: rgba(240, 248, 255, 0);
+border: none;
+float: right;
+font-size: 20px;
+font-weight: bold;
+}
+
+.clo:hover{
+color: rgba(255, 255, 255, 0.548);
+}
+
+#Mind_name{
+margin-left: -190px;
+margin-bottom: -37px;
+font-size: 15px;
+}
+
+#Math_name{
+margin-right: -190px;
+font-size: 15px;
+}
+
+#myapps{
+color: black;
+}
+
+#chapters{
+color: rgb(0, 0, 0);
+}
+
+
+.choose{
+margin-left: 50px;
+font-family: 'Press Start 2P', cursive;
+}
+
+.Chapter_1_img{
+width: 200px;
+height: 300px;
+}
+
+#background_Music{
+height: 50px;
+width: 50px;
+background-color: aqua;
+}
+
+.bg{
+color: white;
+background-color: rgba(0, 0, 0, 1);
+}
